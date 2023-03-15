@@ -1,0 +1,40 @@
+.cardWrapper{
+    width: 22%;
+    min-width: 200px;
+    height: 320px;
+    background-color: rgba(17, 15, 15, 0.747);
+    cursor: pointer;
+    transition: 1s;
+    margin: 10px;
+}
+.cardWrapper:hover{
+    transform: scale(1.05);
+}
+
+.poster{
+    height: 200px;
+    min-width: 200px;
+    width: 100%;
+}
+.details{
+    padding: 10px;
+}
+.name{
+    margin-bottom: 25px;
+}
+.name h5{
+    font-size: small;
+    color: rgb(107, 106, 106);
+}
+.name h4{
+    font-size: small;
+    color: grey;
+}
+
+.extraDetails{
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(107, 106, 106);
+}
